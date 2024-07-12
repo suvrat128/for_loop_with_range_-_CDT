@@ -5,6 +5,13 @@ s = input()
 for ip in range(len(s)):
     if s[ip].isdigit()  and ip%2!=0 and int(s[ip])%2!= 0:
         print(s[ip])
+
+
+# the optimize code:
+s = input()
+for ip in range(1,len(s),2):
+    if s[ip] in '13579':
+        print(s[ip])
 '''
 #process
 1. take string as input form user
