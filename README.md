@@ -3,7 +3,14 @@ For loop with range & CDT:
 2. It is also used whenever we wants to deals with multiple elements 
 
 syntax: 
+
       for variable in range(len(CDT)): 
-      
             statements of for loop  
             with range & CDT 
+
+Example:
+
+      s='hello'
+      for ip in range(len(s)):
+            print(ip)
+            print(s[ip])
