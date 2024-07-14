@@ -51,4 +51,26 @@ process:
 3 string = 'happy'
 2. take a variabe with empty string where we store the reversed string
 3. using loop:
+    iteration 1:
+        it will fetch -1 indexposition so ip is -1
+        it will add value of indexposition -1 = 'y' to reverse variable
+        reverse = 'y'
+    iteration 2:
+        it will fetch -2 indexposition so ip is -2
+        it will add value of indexposition -2 = 'p' to reverse variable
+        reverse = 'yp'
+    iteration 3:
+        it will fetch -3 indexposition so ip is -3
+        it will add value of indexposition -3 = 'p' to reverse variable
+        reverse = 'ypp'
+    iteration 4:
+        it will fetch -4 indexposition so ip is -4
+        it will add value of indexposition -4 = 'a' to reverse variable
+        reverse = 'yppa'
+     iteration 1:
+        it will fetch -5 indexposition so ip is -5
+        it will add value of indexposition -5 = 'h' to reverse variable
+        reverse = 'yppah'
+5. at last after complatioon of lopp we print reverse = 'yppah'
+        
 '''
