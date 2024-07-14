@@ -35,6 +35,7 @@ print(ns)
         it will fetch 4 so ip is 4
         check s[4] 'y' in 'aeiouAEIOU':false
             add s[4] to new so new ='h1ppy'
+4. at last after complation of loop print new = 'h1ppy'
 
         
 '''
